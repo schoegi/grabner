@@ -68,16 +68,16 @@ header nav ul li:hover {
     color: white;
 }
 #home img {
-    width: 32px;
-    margin-top: 260px;
+    width: 40px;
+    margin-top: 200px;
     opacity: 0.7;
 }
 #home img:hover {
     opacity: 1;
 }
 #home .logo-hufe {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     margin-top: 20px;
 }
 
@@ -136,7 +136,7 @@ header nav ul li:hover {
     -moz-border-radius: 5px;
     border-radius: 5px;
     position: relative;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 0 auto;
 }
 .pricing-info {
     padding: 0;
@@ -162,22 +162,24 @@ header nav ul li:hover {
 }
 #text {
     width: 900px;
-    margin: 0 auto 0 auto;
+    margin: 150px auto 0 auto;
 }
 
 /*********** FOOTER **********/
 
 footer {
     width: 100%;
-    height: 70px;
+    height: 150px;
     background-color: #3f3f3f;
 }
 footer p {
     font-size: 12px;
     color: #f0f0f0;
-    margin: 0;
 }
-
+footer .icon-fb, .icon-insta {
+    width: 40px;
+    height: 40px;
+}
 /*********** MEDIA QUERIES **********/
 
 /*********** TABLET **********/
