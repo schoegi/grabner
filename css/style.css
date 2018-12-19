@@ -90,6 +90,15 @@ header nav ul li:hover {
     width: 700px;
     margin: 0 auto 0 auto;
 }
+#my-container-leistungen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text-leistungen {
+    margin: 2%;
+}
 
 /*********** ABOUT **********/
 
@@ -116,7 +125,7 @@ header nav ul li:hover {
 /*********** PREIS **********/
 
 #preis p {
-    width: 700px;
+    width: 600px;
     margin: 0 auto 0 auto;
 }
 .price-box {
@@ -126,12 +135,24 @@ header nav ul li:hover {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    margin-bottom: 40px;
     position: relative;
+    margin: 0 auto 40px auto;
 }
 .pricing-info {
     padding: 0;
     margin: 0 0 30px 0;
+}
+.pricing-info li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#my-container-preis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*********** WHY **********/
@@ -154,7 +175,7 @@ footer {
 footer p {
     font-size: 12px;
     color: #f0f0f0;
-    padding-top: 30px;
+    margin: 0;
 }
 
 /*********** MEDIA QUERIES **********/
