@@ -7,7 +7,7 @@ h2 {color: #5d7177;}
 h3 {font-size: 40px; padding-top: 8%; margin-bottom: 5px;}
 h4, p {font-family: 'Tillana', cursive; color: #494949;}
 hr {width: 30px; height: 3px; background: #494949; border: 0; margin: 0 auto 40px auto;}
-#logo-nav, li, img, .icon-menu {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms}
+li, img, .icon-menu {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms}
 .icon-menu {display: none}
 body {width: 100%; height: 100%;}
 /*********** HEADER **********/
@@ -26,9 +26,6 @@ header {
     width: 65px;
     float: left;
     margin: 10px 0 0 50px;
-}
-#logo-nav:hover {
-    opacity: 0.5;
 }
 #logo-nav img {
     width: 100%;
@@ -76,7 +73,7 @@ header nav ul li:hover {
     opacity: 1;
 }
 #home .logo-hufe {
-    width: 400px;
+    width: 350px;
     height: 300px;
     margin-top: 20px;
 }
@@ -98,6 +95,9 @@ header nav ul li:hover {
 }
 .text-leistungen {
     margin: 2%;
+}
+.text-leistungen li {
+    margin-top: 5%;
 }
 
 /*********** ABOUT **********/
@@ -166,20 +166,33 @@ header nav ul li:hover {
 }
 
 /*********** FOOTER **********/
-
-footer {
-    width: 100%;
-    height: 150px;
+#my-container-footer {
     background-color: #3f3f3f;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+footer h3 {
+    color: #f0f0f0;
 }
 footer p {
     font-size: 12px;
     color: #f0f0f0;
 }
+.logo-footer {
+    margin-left: 2%;
+    margin-top: 1%;
+}
 footer .icon-fb, .icon-insta {
     width: 40px;
     height: 40px;
+    margin-left: 10px;
 }
+
+
 /*********** MEDIA QUERIES **********/
 
 /*********** TABLET **********/
@@ -188,12 +201,21 @@ footer .icon-fb, .icon-insta {
     header {
         height: auto;
     }
+    #logo-nav {
+        width: 45px;
+        float: left;
+        margin: 10px 0 10px 40px;
+    }
+    #logo-nav img {
+        width: 100%;
+        height: 25px;
+    }
     #logo {
         width: 100px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     header nav {
-        margin-top: 0;
+        margin: 0 40px 10px 0;
     }
     header nav ul li {
         font-size: 12px;
@@ -206,7 +228,7 @@ footer .icon-fb, .icon-insta {
         font-size: 40px;
     }
     #home img {
-        margin-top: 350px;
+        margin-top: 250px;
     }
     h3 {
         padding-top: 12%;
@@ -214,6 +236,9 @@ footer .icon-fb, .icon-insta {
     #about p {
         width: 80%;
         height: auto;
+    }
+    .price-box {
+        margin: 3% auto 0 auto;
     }
     #why p {
         width: 80%;
@@ -228,26 +253,28 @@ footer .icon-fb, .icon-insta {
         width: 80%;
         height: auto;
     }
-}
-/*********** FOOTER **********/
-
-footer {
-    width: 100%;
-    height: 150px;
-    background-color: #3f3f3f;
-}
-footer p {
-    font-size: 12px;
-    color: #f0f0f0;
-}
-footer .icon-fb, .icon-insta {
-    width: 40px;
-    height: 40px;
+    /*********** FOOTER **********/
+    #my-container-footer {
+        width: 100%;
+        height: 50%;
+    }
+    footer h3 {
+        color: #f0f0f0;
+    }
+    footer p {
+        font-size: 12px;
+        color: #f0f0f0;
+    }
+    footer .icon-fb, .icon-insta {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
 }
 
 /*********** MOBILE **********/
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 500px) {
     #logo-nav {
         width: 55px;
         float: left;
@@ -305,7 +332,7 @@ footer .icon-fb, .icon-insta {
         height: auto;
     }
     #home img {
-        margin-top: 150px;
+        margin-top: 20px;
     }
     #about img {
         width: 70%;
@@ -314,6 +341,16 @@ footer .icon-fb, .icon-insta {
     #about p {
         width: 70%;
         height: auto;
+    }
+    #preis p {
+        width: 300px;
+    }
+    .price-box {
+        margin: 5% auto 0 auto;
+    }
+    .pricing-info {
+        padding: 0;
+        margin: 0 0 30px 0;
     }
     #why h3 {
         width: 70%;
@@ -339,11 +376,12 @@ footer .icon-fb, .icon-insta {
         height: auto;
     }
     /*********** FOOTER **********/
-
-    footer {
+    #my-container-footer {
         width: 100%;
-        height: 150px;
-        background-color: #3f3f3f;
+        height: 80%;
+    }
+    footer h3 {
+        color: #f0f0f0;
     }
     footer p {
         font-size: 12px;
@@ -352,5 +390,6 @@ footer .icon-fb, .icon-insta {
     footer .icon-fb, .icon-insta {
         width: 40px;
         height: 40px;
+        margin-left: 10px;
     }
 }
