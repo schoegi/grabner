@@ -270,6 +270,9 @@ footer .icon-fb, .icon-insta {
         height: 40px;
         margin-left: 10px;
     }
+    .logo-footer {
+        margin-top: 30px;
+    }
 }
 
 /*********** MOBILE **********/
