@@ -99,6 +99,9 @@ header nav ul li:hover {
 .text-leistungen li {
     margin-top: 5%;
 }
+.achtung {
+    font-size: 13px;
+}
 
 /*********** ABOUT **********/
 
@@ -179,7 +182,7 @@ footer h3 {
     color: #f0f0f0;
 }
 footer p {
-    font-size: 12px;
+    font-size: 16px;
     color: #f0f0f0;
 }
 .logo-footer {
@@ -253,6 +256,9 @@ footer .icon-fb, .icon-insta {
         width: 80%;
         height: auto;
     }
+    .achtung {
+        font-size: 13px;
+    }
     /*********** FOOTER **********/
     #my-container-footer {
         width: 100%;
@@ -262,7 +268,7 @@ footer .icon-fb, .icon-insta {
         color: #f0f0f0;
     }
     footer p {
-        font-size: 12px;
+        font-size: 15px;
         color: #f0f0f0;
     }
     footer .icon-fb, .icon-insta {
@@ -377,6 +383,9 @@ footer .icon-fb, .icon-insta {
         width: 70%;
         height: auto;
     }
+    .achtung {
+        font-size: 12px;
+    }
     /*********** FOOTER **********/
     #my-container-footer {
         width: 100%;
@@ -386,7 +395,7 @@ footer .icon-fb, .icon-insta {
         color: #f0f0f0;
     }
     footer p {
-        font-size: 12px;
+        font-size: 14px;
         color: #f0f0f0;
     }
     footer .icon-fb, .icon-insta {
@@ -497,6 +506,9 @@ footer .icon-fb, .icon-insta {
         width: 70%;
         height: auto;
     }
+    .achtung {
+        font-size: 12px;
+    }
     /*********** FOOTER **********/
     #my-container-footer {
         width: 100%;
@@ -506,7 +518,7 @@ footer .icon-fb, .icon-insta {
         color: #f0f0f0;
     }
     footer p {
-        font-size: 12px;
+        font-size: 14px;
         color: #f0f0f0;
     }
     footer .icon-fb, .icon-insta {
