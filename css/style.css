@@ -79,6 +79,9 @@ header nav ul li:hover {
 }
 
 /*********** LEISTUNGEN **********/
+#leistungen {
+    background-color: #f0f0f0;
+}
 
 #leistungen h4 {
     font-size: 25px;
@@ -105,9 +108,6 @@ header nav ul li:hover {
 
 /*********** ABOUT **********/
 
-#about {
-    background-color: #f0f0f0;
-}
 #about img {
     width: 500px;
     border-radius: 10px;
@@ -126,13 +126,16 @@ header nav ul li:hover {
 }
 
 /*********** PREIS **********/
+#preis {
+    background-color: #f0f0f0;
+}
 
 #preis p {
     width: 600px;
     margin: 0 auto 0 auto;
 }
 .price-box {
-    border: 2px solid #ECEEF0;
+    border: 2px solid #5f5f5f;
     text-align: center;
     padding: 30px;
     -webkit-border-radius: 5px;
@@ -176,12 +179,12 @@ header nav ul li:hover {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 footer h3 {
     color: #f0f0f0;
 }
-footer p {
+footer p a {
     font-size: 16px;
     color: #f0f0f0;
 }
@@ -193,6 +196,9 @@ footer .icon-fb, .icon-insta {
     width: 40px;
     height: 40px;
     margin-left: 10px;
+}
+.text-footer {
+    margin-top: -1em;
 }
 
 
@@ -262,7 +268,7 @@ footer .icon-fb, .icon-insta {
     /*********** FOOTER **********/
     #my-container-footer {
         width: 100%;
-        height: 50%;
+        height: 60%;
     }
     footer h3 {
         color: #f0f0f0;
@@ -389,7 +395,7 @@ footer .icon-fb, .icon-insta {
     /*********** FOOTER **********/
     #my-container-footer {
         width: 100%;
-        height: 70%;
+        height: 90%;
     }
     footer h3 {
         color: #f0f0f0;
