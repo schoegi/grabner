@@ -23,7 +23,7 @@ header {
     z-index: 1;
 }
 #logo-nav {
-    width: 65px;
+    width: 54px;
     float: left;
     margin: 10px 0 0 50px;
 }
@@ -73,7 +73,7 @@ header nav ul li:hover {
     opacity: 1;
 }
 #home .logo-hufe {
-    width: 350px;
+    width: 309px;
     height: 300px;
     margin-top: 20px;
 }
