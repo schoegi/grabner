@@ -394,6 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   background-image: url("../img/bg-stephanie2.jpeg");
   background-size: cover;
+  background-position: center center;
   position: relative;
   padding: 120px 0 0 0;
 }
@@ -483,6 +484,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+    margin-top: 40%;
   }
 }
 
@@ -762,15 +764,19 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
-  background-size: contain;
-  min-height: 300px;
+  background-image: url("../img/dog-video.jpeg");
+  height: 400px;
+  max-width: 300px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 18px;
+  background-repeat: no-repeat;
 }
 
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#1e7d32 50%, rgba(30, 125, 50, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -811,14 +817,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(63, 67, 253, 0.7);
+  border: 5px solid rgba(30, 125, 50, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #1e7d32;
   transform: scale(20);
 }
 
